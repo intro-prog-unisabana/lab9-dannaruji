@@ -2,8 +2,6 @@ from person import Person
 from bank_account import BankAccount
 from utils import person_data, balance_summary
 
-def main():
-
 people = []
 
 while True:
@@ -51,6 +49,4 @@ while True:
     else:
         print("Invalid option. Please choose 1-4.")
 
-if __name__ == "__main__":
-    main()
 
