@@ -6,7 +6,7 @@ class Movie:
         self.director = director
         self.year = year
     def __str__(self):
-        return f"Movie: {self.tittle} (Directed by {self.director}, {self.year})"
+        return f"Movie: {self.title} (Directed by {self.director}, {self.year})"
     
 if __name__ == "__main__":
     title = input()
