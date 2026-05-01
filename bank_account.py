@@ -16,5 +16,5 @@ class BankAccount:
     
     def __str__(self):
         last_digits = str(self.account_number)[-2:1]
-        return f"Account Number: **{last_digits}\nCurrent Balance: ${self.balance}"
+        return f"Account Number: **{last_digits}\nCurrent Balance: {self.balance:.2f}"
     
