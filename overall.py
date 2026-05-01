@@ -18,6 +18,7 @@ while True:
         car = create_car_from_input()
         cars[car.car_id] = car
         print("Car added.")
+        print(car)
 
     elif choice == '2':
         display_cars(cars)
