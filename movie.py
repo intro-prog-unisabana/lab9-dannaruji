@@ -8,10 +8,10 @@ class Movie:
     def __str__(self):
         return f"Movie: {self.tittle} (Directed by {self.director}, {self.year})"
     
+if __name__ == "__main__":
+    title = input()
+    director = input()
+    year = int(input())
 
-title = input("Enter the movie title: ")
-director = input("Enter the director's name: ")
-year = int(input("Enter the release year: "))
-
-movie = Movie(title, director, year)
-print(movie)
+    movie = Movie(title, director, year)
+    print(movie)
