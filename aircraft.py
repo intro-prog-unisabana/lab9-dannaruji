@@ -4,7 +4,7 @@ class Aircraft:
         self.model = model
         self.altitude = altitude
 
-    def climb(self, feet):
+    def ascend(self, feet):
         self.altitude += feet
 
     def descend(self, feet):
